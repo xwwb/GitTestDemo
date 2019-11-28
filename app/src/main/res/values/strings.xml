@@ -3,4 +3,5 @@
     <string name="test2">test2</string>
     <string name="test">test</string>
     <string name="name1">nmae1</string>
+    <string name="name">app_name</string>
 </resources>
