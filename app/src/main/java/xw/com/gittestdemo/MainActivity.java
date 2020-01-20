@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
