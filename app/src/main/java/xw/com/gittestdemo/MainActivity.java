@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         //提交了
+        //又提交了
 
     }
 
