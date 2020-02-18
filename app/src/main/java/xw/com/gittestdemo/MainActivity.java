@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        //提交了
+        //又提交了
 
     }
 
