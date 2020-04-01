@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
  private  int i=0;
@@ -14,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        EditText et = findViewById(R.id.editText);
+//        et.setFocusable(true);
+//        et.setFocusableInTouchMode(true);
+        et.requestFocus();
 
     }
     @Override
